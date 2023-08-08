@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body
+    class="bg-no-repeat"
+    style="background-image: url('./images/desktop/image-hero.jpg')"
+  >
+    <section>
+      <div class="overlay hidden min-h-screen bg-black absolute z-10"></div>
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <nav class="flex justify-between items-center">
+          <div>
+            <img src="./images/logo.svg" alt="" srcset="" />
+          </div>
+          <img
+            src="./images/icon-hamburger.svg"
+            alt=""
+            class="menu-icon h-1/2 cursor-pointer md:hidden"
+          />
+          <img
+            src="./images/icon-close.svg"
+            alt=""
+            class="close-icon h-1/2 cursor-pointer hidden"
+          />
+          <ul
+            class="ul hidden absolute z-20 top-40 left-12 space-y-3 text-white text-2xl font-light uppercase md:flex md:justify-between md:gap-8 md:static md:space-y-0 md:text-base md:normal-case md:font-bold"
+          >
+            <li class="hover:text-purple-600"><a href="">About</a></li>
+            <li class="hover:text-purple-600"><a href="">Careers</a></li>
+            <li class="hover:text-purple-600"><a href="">Events</a></li>
+            <li class="hover:text-purple-600"><a href="">Products</a></li>
+            <li class="hover:text-purple-600"><a href="">Suppors</a></li>
+          </ul>
+        </nav>
+        <!-- <div class=" border-2 border-white text-white font-light md:text-6xl md:tracking-wider w-1/2 px-16 py-10">
+          <p class="">IMPRESSIVE EXPERIENCES THAT DELIVER</p>
+        </div> -->
+        <div
+          class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white border-2 font-light tracking-wider md:p-10 md:m-32 md:mx-0 md:text-6xl"
+        >
+          IMPRESSIVE EXPERIENCES THAT DELIVER
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const menuIcon = document.querySelector(".menu-icon");
+      const closeIcon = document.querySelector(".close-icon");
+      const overlay = document.querySelector(".overlay");
+      const ul = document.querySelector(".ul");
+
+      menuIcon.addEventListener("click", () => {
+        overlay.classList.add("active");
+        ul.classList.add("active");
+        closeIcon.classList.add("active");
+      });
+
+      closeIcon.addEventListener("click", () => {
+        overlay.classList.remove("active");
+        ul.classList.remove("active");
+        closeIcon.classList.remove("active");
+      });
+    </script>
+  </body>
+</html>
