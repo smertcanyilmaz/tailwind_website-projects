@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  background-image: url("./images/desktop/image-hero.jpg");
+#hero {
+  background-image: url("../images/desktop/image-hero.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media (max-width: 576px) {
-  body {
-    background-image: url("./images/mobile/image-hero.jpg");
+  #hero {
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-position: center;
   }
-} */
-
+}
 .active {
   display: inline-block;
 }
