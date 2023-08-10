@@ -22,3 +22,7 @@
   display: inline-block;
   z-index: 20;
 }
+
+.overflow {
+  overflow-y: hidden;
+}

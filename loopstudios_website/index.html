@@ -7,11 +7,10 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="overlay hidden min-h-full w-full bg-black absolute z-10"></div>
+
     <section id="hero">
-      <div
-        class="overlay hidden min-h-screen w-full bg-black absolute z-10"
-      ></div>
-      <div class="max-w-6xl mx-auto px-6 py-12 mb-20">
+      <div class="max-w-6xl mx-auto px-6 py-12">
         <nav class="flex justify-between items-center">
           <div>
             <img src="./images/logo.svg" alt="" srcset="" />
@@ -49,7 +48,7 @@
 
     <section>
       <div
-        class="max-w-6xl mx-auto px-6 py-12 relative flex flex-col gap-10 md:block md:gap-0 md:text-right"
+        class="max-w-6xl mx-auto px-6 py-12 mb-20 mt-20 relative flex flex-col gap-10 md:block md:px-0 md:gap-0 md:text-right"
       >
         <div class="img">
           <img src="./images/desktop/image-interactive.jpg" alt="" />
@@ -75,20 +74,235 @@
       </div>
     </section>
 
+    <section>
+      <div class="hidden md:block max-w-6xl mx-auto">
+        <div class="w-full flex justify-between items-center mb-24">
+          <h1 class="text-5xl font-light tracking-wider">OUR CREATIONS</h1>
+          <button
+            class="border-black tracking-widest duration-100 font-bold hover:bg-gray-800 hover:text-white md:px-12 md:py-2 border-2"
+          >
+            SEE ALL
+          </button>
+        </div>
+        <div class="grid grid-cols-4 gap-x-4 gap-y-8 ">
+          <div class="img relative hover:opacity-30 ">
+            <img src="./images/desktop/image-deep-earth.jpg" alt="" srcset=""  />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              DEEP EARTH
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img
+              src="./images/desktop/image-night-arcade.jpg"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              NIGHT ARCADE
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img
+              src="./images/desktop/image-soccer-team.jpg"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="w-36 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              SOCCER TEAM VR
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/desktop/image-grid.jpg" alt="" srcset="" />
+            <div
+              class="w-36 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              THE GRID
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/desktop/image-from-above.jpg" alt="" srcset="" />
+            <div
+              class="w-48 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              FROM UP ABOVE VR
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img
+              src="./images/desktop/image-pocket-borealis.jpg"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              POCKET BOREALIS
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/desktop/image-curiosity.jpg" alt="" srcset="" />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              THE CURIOSITY
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/desktop/image-fisheye.jpg" alt="" srcset="" />
+            <div
+              class="w-48 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              MAKE IT FISHEYE
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mobil -->
+
+      <div class="md:hidden max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 gap-y-8 mx-6">
+          <div class="text-center mb-10">
+            <h1 class="text-4xl font-light tracking-wider">OUR CREATIONS</h1>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-deep-earth.jpg" alt="" srcset="" />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              DEEP EARTH
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img
+              src="./images/mobile/image-night-arcade.jpg"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              NIGHT ARCADE
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-soccer-team.jpg" alt="" srcset="" />
+            <div
+              class="w-36 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              SOCCER TEAM VR
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-grid.jpg" alt="" srcset="" />
+            <div
+              class="w-36 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              THE GRID
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-from-above.jpg" alt="" srcset="" />
+            <div
+              class="w-48 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              FROM UP ABOVE VR
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img
+              src="./images/mobile/image-pocket-borealis.jpg"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              POCKET BOREALIS
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-curiosity.jpg" alt="" srcset="" />
+            <div
+              class="w-20 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              THE CURIOSITY
+            </div>
+          </div>
+          <div class="relative hover:opacity-30">
+            <img src="./images/mobile/image-fisheye.jpg" alt="" srcset="" />
+            <div
+              class="w-48 absolute left-10 bottom-10 text-slate-300 text-3xl font-light tracking-wider"
+            >
+              MAKE IT FISHEYE
+            </div>
+          </div>
+          <div>
+            <button
+              class="border-black tracking-widest duration-100 font-bold hover:bg-gray-800 hover:text-white border-2 w-full py-1"
+            >
+              SEE ALL
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black">
+      <div class="max-w-6xl mx-auto mt-32 pt-8 pb-24 text-white flex flex-col items-center gap-5 md:flex-row md:justify-between md:items-start ">
+        <div class="space-y-5 mb-5">
+          <h2 class="text-3xl font-bold">loopstudios</h2>
+          <ul
+            class="flex flex-col items-center gap-6 md:flex-row md:items-start"
+          >
+            <li class="hover:text-indigo-300"><a href="">About</a></li>
+            <li class="hover:text-indigo-300"><a href="">Careers</a></li>
+            <li class="hover:text-indigo-300"><a href="">Events</a></li>
+            <li class="hover:text-indigo-300"><a href="">Products</a></li>
+            <li class="hover:text-indigo-300"><a href="">Suppors</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div class="space-y-8">
+          <div>
+            <ul
+            class="flex gap-5 justify-center md:justify-start"
+          >
+            <li ><a href=""><img src="./images/icon-facebook.svg" alt=""></a></li>
+            <li ><a href=""><img src="./images/icon-twitter.svg" alt="" class="w-6 h-6 object-cover "></a></li>
+            <li ><a href=""><img src="./images/icon-pinterest.svg" alt=""></a></li>
+            <li ><a href=""><img src="./images/icon-instagram.svg" alt=""></a></li>
+           
+          </ul>
+          </div>
+          <p class="text-sm text-slate-400">© 2022 Loopstudios. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+
     <script>
       const menuIcon = document.querySelector(".menu-icon");
       const closeIcon = document.querySelector(".close-icon");
       const overlay = document.querySelector(".overlay");
       const ul = document.querySelector(".ul");
+      const body = document.body;
 
       menuIcon.addEventListener("click", () => {
         overlay.classList.add("active");
+        body.classList.add("overflow");
         ul.classList.add("active");
         closeIcon.classList.add("active");
       });
 
       closeIcon.addEventListener("click", () => {
         overlay.classList.remove("active");
+        body.classList.remove("overflow");
         ul.classList.remove("active");
         closeIcon.classList.remove("active");
       });
